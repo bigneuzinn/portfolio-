@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Nome | Portfólio Moderno</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#" class="logo">Seu Nome</a>
+            <ul class="nav-links">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero-section">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Olá, eu sou Vinicius Lucas</h1>
+                <h3>Desenvolvedor(a) Web | UI/UX Designer</h3>
+                <p>Com paixão por criar experiências digitais intuitivas e visualmente atraentes. Vamos construir algo incrível juntos!</p>
+                <div class="hero-buttons">
+                    <a href="#projetos" class="btn primary-btn">Meus Projetos <i class="fas fa-arrow-right"></i></a>
+                    <a href="#contato" class="btn secondary-btn">Fale Comigo <i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="ilustracao-dev.svg" alt="Ilustração de Desenvolvedor(a)">
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="about-section bg-light">
+        <div class="container">
+            <h2><i class="fas fa-user-circle"></i> Sobre Mim</h2>
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="ilustracao-pensando.svg" alt="Ilustração pensando">
+                </div>
+                <div class="about-text">
+                    <p>Sou um(a) desenvolvedor(a) [Front-end/Full-stack] com [X] anos de experiência em criar soluções robustas e elegantes. Minha jornada começou com [breve história], e hoje sou apaixonado(a) por [o que você ama fazer].</p>
+                    <p>Fora do código, gosto de [seus hobbies, ex: praticar esportes, ler, viajar], que me ajudam a manter a criatividade e o equilíbrio.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="habilidades" class="skills-section">
+        <div class="container">
+            <h2><i class="fas fa-tools"></i> Minhas Habilidades</h2>
+            <p class="section-description">Ferramentas e tecnologias que domino e utilizo no meu dia a dia.</p>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="tech-stack">
+                        <div class="tech-item">
+                            <img src="img/html.png" alt="HTML5 Logo">
+                            <span>HTML5</span>
+                        </div>
+                        <div class="tech-item">
+                            <img src="img/css.png" alt="CSS3 Logo">
+                            <span>CSS3</span>
+                        </div>
+                        <div class="tech-item">
+                            <img src="img/javascript.png" alt="JavaScript Logo">
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="tech-item">
+                            <img src="img/react.png" alt="React Logo">
+                            <span>React</span>
+                        </div>
+                        <div class="tech-item">
+                            <img src="img/vue.png" alt="Vue.js Logo">
+                            <span>Vue.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="tech-stack">
+                        <div class="tech-item">
+                            <img src="img/nodejs.png" alt="Node.js Logo">
+                            <span>Node.js</span>
+                        </div>
+                        <div class="tech-item">
+                            <img src="img/python.png" alt="Python Logo">
+                            <span>Python</span>
+                        </div>
+                        <div class="tech-item">
+                            <img src="img/php.png" alt="PHP Logo">
+                            <span>PHP</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Ferramentas & Outros</h3>
+                    <div class="tech-stack">
+                        <div class="tech-item">
+                            <img src="img/git.png" alt="Git Logo">
+                            <span>Git</span>
+                        </div>
+                        <div class="tech-item">
+                            <img src="img/figma.png" alt="Figma Logo">
+                            <span>Figma</span>
+                        </div>
+                        <div class="tech-item">
+                            <img src="img/photoshop.png" alt="Photoshop Logo">
+                            <span>Photoshop</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <p class="skills-note">Sempre buscando aprender novas tecnologias e aprimorar minhas habilidades.</p>
+        </div>
+    </section>
+
+    <section id="projetos" class="projects-section bg-light">
+        <div class="container">
+            <h2><i class="fas fa-laptop-code"></i> Meus Projetos</h2>
+            <p class="section-description">Confira alguns dos meus trabalhos mais recentes e importantes.</p>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="img/projeto1.jpg" alt="Projeto 1">
+                    <h3>Nome do Projeto 1</h3>
+                    <p>Uma breve descrição do projeto, os desafios e as tecnologias utilizadas. Ex: "Desenvolvimento de um e-commerce responsivo com React e Node.js."</p>
+                    <div class="project-links">
+                        <a href="link-do-projeto" target="_blank" class="btn small-btn primary-btn">Ver Projeto <i class="fas fa-external-link-alt"></i></a>
+                        <a href="link-do-github" target="_blank" class="btn small-btn secondary-btn">GitHub <i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="img/projeto2.jpg" alt="Projeto 2">
+                    <h3>Nome do Projeto 2</h3>
+                    <p>Descrição do projeto. Ex: "Criação de um dashboard interativo para análise de dados utilizando Vue.js e D3.js."</p>
+                    <div class="project-links">
+                        <a href="link-do-projeto" target="_blank" class="btn small-btn primary-btn">Ver Projeto <i class="fas fa-external-link-alt"></i></a>
+                        <a href="link-do-github" target="_blank" class="btn small-btn secondary-btn">GitHub <i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="img/projeto3.jpg" alt="Projeto 3">
+                    <h3>Nome do Projeto 3</h3>
+                    <p>Descrição do projeto. Ex: "Website institucional moderno e otimizado para SEO, desenvolvido com WordPress e customizações CSS/JS."</p>
+                    <div class="project-links">
+                        <a href="link-do-projeto" target="_blank" class="btn small-btn primary-btn">Ver Projeto <i class="fas fa-external-link-alt"></i></a>
+                        <a href="link-do-github" target="_blank" class="btn small-btn secondary-btn">GitHub <i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="link-para-todos-os-projetos" class="btn primary-btn view-all-btn">Ver Todos os Projetos <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </section>
+
+    <section id="contato" class="contact-section">
+        <div class="container">
+            <h2><i class="fas fa-paper-plane"></i> Entre em Contato</h2>
+            <p class="section-description">Estou sempre aberto(a) a novas oportunidades e colaborações. Vamos conversar!</p>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn primary-btn">Enviar Mensagem <i class="fas fa-paper-plane"></i></button>
+            </form>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/seu-perfil" target="_blank" title="LinkedIn"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="https://github.com/seu-perfil" target="_blank" title="GitHub"><i class="fab fa-github fa-2x"></i></a>
+                <a href="mailto:seuemail@exemplo.com" title="Email"><i class="fas fa-envelope fa-2x"></i></a>
+                </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Seu Nome. Desenvolvido com <i class="fas fa-heart"></i> e Código.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
