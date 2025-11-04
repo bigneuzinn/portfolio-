@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seu Nome | Portfólio Moderno</title>
+    <title>Vinicius Lucas | Portfólio Moderno</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
@@ -11,7 +11,7 @@
 
     <header class="header">
         <nav class="navbar container">
-            <a href="#" class="logo">Seu Nome</a>
+            <a href="#" class="logo">PORTIFÓLIO</a>
             <ul class="nav-links">
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#habilidades">Habilidades</a></li>
@@ -29,16 +29,16 @@
     <section id="hero" class="hero-section">
         <div class="container hero-content">
             <div class="hero-text">
-                <h1>Olá, eu sou Vinicius Lucas</h1>
-                <h3>Desenvolvedor(a) Web | UI/UX Designer</h3>
-                <p>Com paixão por criar experiências digitais intuitivas e visualmente atraentes. Vamos construir algo incrível juntos!</p>
+                <h1>Olá, eu sou <span>Vinicius Lucas</span></h1>
+                <h3>Desenvolvedor Front-end | UI/UX Enthusiast</h3>
+                <p>Com **2 anos de experiência** em criar experiências digitais intuitivas, responsivas e visualmente atraentes. Vamos construir o próximo projeto incrível juntos!</p>
                 <div class="hero-buttons">
-                    <a href="#projetos" class="btn primary-btn">Meus Projetos <i class="fas fa-arrow-right"></i></a>
-                    <a href="#contato" class="btn secondary-btn">Fale Comigo <i class="fas fa-envelope"></i></a>
+                    <a href="#projetos" class="btn primary-btn">Ver Projetos <i class="fas fa-arrow-right"></i></a>
+                    <a href="#contato" class="btn secondary-btn">Fale Comigo Agora <i class="fas fa-comment-dots"></i></a>
                 </div>
             </div>
-            <div class="hero-image">
-                <img src="ilustracao-dev.svg" alt="Ilustração de Desenvolvedor(a)">
+            <div class="hero-image pulse-animation">
+                <img src="img/dev.img" alt="Ilustração de Desenvolvedor(a)">
             </div>
         </div>
     </section>
@@ -168,10 +168,31 @@
     </section>
 
     <section id="contato" class="contact-section">
-        <div class="container">
-            <h2><i class="fas fa-paper-plane"></i> Entre em Contato</h2>
-            <p class="section-description">Estou sempre aberto(a) a novas oportunidades e colaborações. Vamos conversar!</p>
+        <div class="container contact-grid">
+            <div class="contact-info-block">
+                <h2><i class="fas fa-comments"></i> Vamos Conversar!</h2>
+                <p class="section-description">Estou aberto a novas oportunidades e colaborações. Escolha a melhor forma de falar comigo:</p>
+                
+                <div class="direct-contact-links">
+                    <a href="https://wa.me/seu-numero-whatsapp" target="_blank" class="contact-link whatsapp-link" title="WhatsApp">
+                        <i class="fab fa-whatsapp"></i> **WhatsApp**
+                    </a>
+                    <a href="mailto:seuemail@exemplo.com" class="contact-link email-link" title="Email">
+                        <i class="fas fa-envelope"></i> **Email Direto**
+                    </a>
+                    <a href="https://linkedin.com/in/seu-perfil" target="_blank" class="contact-link linkedin-link" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i> **LinkedIn**
+                    </a>
+                </div>
+
+                <div class="social-links-footer">
+                    <a href="https://linkedin.com/in/seu-perfil" target="_blank" title="LinkedIn"><i class="fab fa-linkedin fa-2x"></i></a>
+                    <a href="https://github.com/seu-perfil" target="_blank" title="GitHub"><i class="fab fa-github fa-2x"></i></a>
+                </div>
+            </div>
+
             <form class="contact-form">
+                <h3>Envie uma Mensagem Rápida</h3>
                 <div class="form-group">
                     <label for="name">Nome:</label>
                     <input type="text" id="name" name="name" required>
@@ -182,21 +203,16 @@
                 </div>
                 <div class="form-group">
                     <label for="message">Mensagem:</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <textarea id="message" name="message" rows="4" required></textarea>
                 </div>
-                <button type="submit" class="btn primary-btn">Enviar Mensagem <i class="fas fa-paper-plane"></i></button>
+                <button type="submit" class="btn primary-btn">Enviar <i class="fas fa-paper-plane"></i></button>
             </form>
-            <div class="social-links">
-                <a href="https://linkedin.com/in/seu-perfil" target="_blank" title="LinkedIn"><i class="fab fa-linkedin fa-2x"></i></a>
-                <a href="https://github.com/seu-perfil" target="_blank" title="GitHub"><i class="fab fa-github fa-2x"></i></a>
-                <a href="mailto:seuemail@exemplo.com" title="Email"><i class="fas fa-envelope fa-2x"></i></a>
-                </div>
         </div>
     </section>
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Seu Nome. Desenvolvido com <i class="fas fa-heart"></i> e Código.</p>
+            <p>&copy; 2025 Vinicius Lucas. Desenvolvido com <i class="fas fa-heart"></i> e Código.</p>
         </div>
     </footer>
 
